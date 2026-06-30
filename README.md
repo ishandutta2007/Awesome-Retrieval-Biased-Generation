@@ -1,7 +1,19 @@
 # Awesome-Retrieval-Biased-Generation
 
+<!-- SEO Metadata -->
+<!--
+Title: Awesome Retrieval-Biased Generation (RBG) - Curated Resources
+Description: Explore Retrieval-Biased Generation (RBG) techniques to ground LLMs, redirect knowledge primacy, enforce source anchoring, and eliminate hallucinations in RAG pipelines.
+Keywords: Retrieval-Biased Generation, RBG, Retrieval-Augmented Generation, RAG, Knowledge Primacy, Source Anchoring, LLM Hallucinations, Logit Bias, PagedAttention
+-->
+
 <p align="center">
   <img src="assets/banner.svg" alt="Retrieval-Biased Generation Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ## 🚀 Retrieval-Biased Generation (RBG): Evolution, Variants, Types, & Applications
