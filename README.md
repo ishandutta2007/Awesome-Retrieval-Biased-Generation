@@ -30,15 +30,15 @@ flowchart LR
 
 Retrieval-Biased Generation configurations are categorized based on the architectural mechanism deployed to tilt the final probability distribution toward retrieved source text.
 
-### A. Strict External-Anchored Bias (Zero-Parametric Override)
-*   **Mechanism:** Enforces absolute dominance of the retrieved context. The generation layer calculates token choices strictly as a conditional function of the fetched document embeddings. If an un-aligned token begins to peak in probability due to base weight distributions, its logit value is suppressed to zero.
-*   **Application:** Crucial for legal contract analysis and clinical drug dosage lookups, where a single out-of-context parametric assumption creates critical liability risks.
+-	### A. Strict External-Anchored Bias (Zero-Parametric Override)
+	*   **Mechanism:** Enforces absolute dominance of the retrieved context. The generation layer calculates token choices strictly as a conditional function of the fetched document embeddings. If an un-aligned token begins to peak in probability due to base weight distributions, its logit value is suppressed to zero.
+	*   **Application:** Crucial for legal contract analysis and clinical drug dosage lookups, where a single out-of-context parametric assumption creates critical liability risks.
 
-### B. Adaptive Dual-Pass Alignment (Balanced RBG)
-*   **Mechanism:** Computes two separate probability vectors concurrently: one pass over the prompt using standard weights, and a second pass over the prompt interleaved with the retrieved chunks. The system measures the divergence between both layers, applying an adjustable **Retrieval Bias Parameter ($\beta$)** to smoothly balance creative expression with hard-vetted fact retrieval.
+-	### B. Adaptive Dual-Pass Alignment (Balanced RBG)
+	*   **Mechanism:** Computes two separate probability vectors concurrently: one pass over the prompt using standard weights, and a second pass over the prompt interleaved with the retrieved chunks. The system measures the divergence between both layers, applying an adjustable **Retrieval Bias Parameter ($\beta$)** to smoothly balance creative expression with hard-vetted fact retrieval.
 
-### C. Source-Attributed Token Routing
-*   **Mechanism:* The model undergoes targeted Supervised Fine-Tuning (SFT) to dynamically track the parent document coordinates of every generated fact. The self-attention heads explicitly map query tokens to specific document chunk indices, generating markdown text interwoven with absolute source verification keys.
+-	### C. Source-Attributed Token Routing
+	*   **Mechanism:** The model undergoes targeted Supervised Fine-Tuning (SFT) to dynamically track the parent document coordinates of every generated fact. The self-attention heads explicitly map query tokens to specific document chunk indices, generating markdown text interwoven with absolute source verification keys.
 
 ---
 
