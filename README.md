@@ -108,3 +108,14 @@ To advance this documentation repository, structural stack, or framework setup, 
 * To see how models parse incoming text documents into dense visual grids, read **[Vision Transformers (ViTs) in AI](https://github.com)**.
 * To master the real-time interleaving techniques that feed biased generation streams, see **[Retrieval-Interleaved Generation (RIG)](https://github.com)**.
 * To trace the foundational baseline history of document ingestion pipelines, explore **[Retrieval-Augmented Generation (RAG) Architectures](https://github.com)**.
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Retrieval-Biased-Generation&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Retrieval-Biased-Generation&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Retrieval-Biased-Generation&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Retrieval-Biased-Generation&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
