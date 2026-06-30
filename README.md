@@ -10,7 +10,10 @@ Retrieval-Biased Generation (RBG)—often discussed in context with knowledge pr
 The technical framework governing how models handle retrieved constraints has transitioned from naive textual appending to attention-weighted balancing and dynamic inference-time token redirection.
 
 ```mermaid
-[Parametric Primacy (2020-2022)] ----> [Static Context Anchoring (2023-2024)] ----> [Dynamic Latent Calibration (2025+)](Internal Weight Hallucinations)         (Rigid Prompt Engineering Constraints)          (Logit-Shifted Real-Time Source Biasing)
+flowchart LR
+    A["Parametric Primacy (2020-2022)<br/>(Internal Weight Hallucinations)"]
+    --> B["Static Context Anchoring (2023-2024)<br/>(Rigid Prompt Engineering Constraints)"]
+    --> C["Dynamic Latent Calibration (2025+)<br/>(Logit-Shifted Real-Time Source Biasing)"]
 ```
 
 *   **The Parametric Primacy Era (Pre-2023)**
