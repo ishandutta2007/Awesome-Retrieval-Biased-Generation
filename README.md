@@ -1,11 +1,16 @@
 # Awesome-Retrieval-Biased-Generation
-## Retrieval-Biased Generation (RBG): Evolution, Variants, Types, & Applications
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Retrieval-Biased Generation Banner" width="100%">
+</p>
+
+## 🚀 Retrieval-Biased Generation (RBG): Evolution, Variants, Types, & Applications
 
 Retrieval-Biased Generation (RBG)—often discussed in context with knowledge primacy, source anchoring, and contextual bias in Large Language Models—is an advanced architectural and behavioral paradigm mapping out how generative models reconcile historical internal memory with newly retrieved context. In any Retrieval-Augmented Generation (RAG) system, an implicit tension exists between the model's parametric knowledge (facts frozen during pre-training) and its non-parametric knowledge (facts injected on-the-fly from an external vector store). Retrieval-Biased Generation covers the methods, calibrations, and training mechanics that intentionally bias the output text distribution toward fetched document sources. By systematically tuning a model to trust dynamic contexts over pre-existing weight parameters, RBG eliminates outdated data footprints, guarantees strict corporate compliance, and forces real-time factual alignment.
 
 ---
 
-## 1. The Chronological Evolution
+## 📅 1. The Chronological Evolution
 
 The technical framework governing how models handle retrieved constraints has transitioned from naive textual appending to attention-weighted balancing and dynamic inference-time token redirection.
 
@@ -24,7 +29,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Bias-Direction Variants
+## ⚙️ 2. Core Functional & Bias-Direction Variants
 
 Retrieval-Biased Generation configurations are categorized based on the architectural mechanism deployed to tilt the final probability distribution toward retrieved source text.
 
@@ -36,7 +41,7 @@ Retrieval-Biased Generation configurations are categorized based on the architec
 
 ---
 
-## 3. Structural Integration & Context Horizon Types
+## 🏗️ 3. Structural Integration & Context Horizon Types
 
 Depending on how the text distribution is influenced across deep neural network layers, retrieval biasing is engineered across distinct structural checkpoints.
 
@@ -48,7 +53,7 @@ Depending on how the text distribution is influenced across deep neural network 
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## 🛠️ 4. Production Engineering Challenges & Hardware Solutions
 
 Enforcing severe context bias across high-volume commercial pipelines changes the compute profile and introduces unique capability boundaries.
 
@@ -59,7 +64,7 @@ Enforcing severe context bias across high-volume commercial pipelines changes th
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🌐 5. Frontier Real-World AI Applications
 
 | Application Area | Application Details | Year | First Paper |
 | :--- | :--- | :--- | :--- |
@@ -69,7 +74,7 @@ Enforcing severe context bias across high-volume commercial pipelines changes th
 
 ---
 
-## References
+## 📚 References
 1. Lewis, P., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems (NeurIPS)*, 33, 9459-9474.
 2. Liu, N. F., et al. (2023). Lost in the middle: How language models use long contexts. *arXiv preprint arXiv:2307.03172*.
 3. Shi, F., et al. (2023). REPLUG: Retrieval-augmented black-box language models. *arXiv preprint arXiv:2301.12652*.
